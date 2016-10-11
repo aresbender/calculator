@@ -1,0 +1,19 @@
+/*初始化*/
+*{ margin:0; padding:0;}
+input,textarea{ border:0 none; background:none; outline:none;}
+li{ list-style:none;}
+i,em,strong{ font-style:normal;}
+a{ text-decoration:none;}
+a:hover{ color:#F00;}
+img{ border:0 none; vertical-align:top;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:'.'; height:0; display:block; visibility:hidden; clear:both;}
+body{ font-size: 12px; font-family: "微软雅黑"; color: #000;}
+/*主要部分*/
+.box{width:420px; height: 400px; margin: 100px auto 0;}
+.screen{width:354px; height: 64px; margin:24px 0 19px 33px; border-radius: 10px;background: #cd2727;}
+.screen input{width:354px; height: 64px;text-align:end; color: #fff; font-size: 20px;}
+.button{width:382px; height: 297px;margin-left:38px;line-height: 52px;}
+.button li{width:52px; height: 52px;border-radius: 9px; background: #8d7c7c; float: left; text-align: center; font-size:21px;color:#fff;margin:0 21px 19px 0;cursor: pointer;}
+.button input{display:block;width:52px; height: 52px;border-radius: 9px; background:none;font-size: 18px;color:#FFFFFF; cursor: pointer; }
+.button input:hover{border: 2px solid #469ef8;}
