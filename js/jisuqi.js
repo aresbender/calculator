@@ -12,6 +12,8 @@ function inputKey(num){
 		screenObj.value=num;
 	}else if(screenObj.value.indexOf(".")==-1&&num!="."){
 		screenObj.value+=num;	
+	}else if(screenObj.value.indexOf(".")==-1||num!="."){
+		screenObj.value+=num;	
 	}else if(num=="."){
 		if(screenObj.value.indexOf(".")==-1&&screenObj.value!=""){
 			if(clicked=="="||clicked=="+"||clicked=="-"||clicked=="*"||clicked=="/"||clicked=="%"){
